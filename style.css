@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.design {
+  display: flex;
+  min-height: 80vh;
+}
+.leftimg {
+  width: 35%;
+  margin: auto;
+  transform: translateX(50px);
+  transition: 0.5s all linear;
+}
+.right {
+  width: 30%;
+  margin: auto;
+  transform: translateX(-100px);
+}
+.h1 {
+  width: 90%;
+}
+.ptext {
+  color: rgb(62, 60, 60);
+  font-weight: 500;
+  line-height: 1.5;
+}
+.btn {
+  padding: 15px 35px;
+  margin-top: 15px;
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s all linear;
+}
+.btn:hover {
+  background-color: rgba(0, 0, 255, 0.903);
+  transform: scale(1.1);
+}
